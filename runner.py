@@ -32,7 +32,7 @@ def get_loc_area(ra_input,dec_input):
 `# Distance distribution: uniform in Euclidean volume.` \
 `# WARNING: distances are in kpc.` \
 --d-distr volume \
---min-distance 100000 --max-distance 100000 \
+--min-distance 150000 --max-distance 150000 \
 `# Coalescence time distribution: adjust time step, start, and stop` \
 `# polarization` \
 --polarization  0 \

@@ -17,7 +17,7 @@
       <Column Name="ifos" Type="lstring"/>
       <Column Name="process_id" Type="ilwd:char"/>
       <Stream Name="process:table" Type="Local" Delimiter=",">
-         "inspinj","cf792129c2473f42ce6c6ee21d8234254cefd337","UNCLEAN: Modified working tree",1297636810," ",0,"alpha","1003",2317320,1321085185,1321085185,0,"lalapps","","process:process_id:0"
+         "inspinj","cf792129c2473f42ce6c6ee21d8234254cefd337","UNCLEAN: Modified working tree",1297636810," ",0,"alpha","1003",867183,1321119908,1321119908,0,"lalapps","","process:process_id:0"
       </Stream>
    </Table>
    <Table Name="process_params:table">
@@ -35,8 +35,8 @@
          "inspinj","process:process_id:0","--longitude","float","-1.690000e+00",
          "inspinj","process:process_id:0","--latitude","float","-8.500000e-01",
          "inspinj","process:process_id:0","--d-distr","string","volume",
-         "inspinj","process:process_id:0","--min-distance","float","1.000000e+05",
-         "inspinj","process:process_id:0","--max-distance","float","1.000000e+05",
+         "inspinj","process:process_id:0","--min-distance","float","1.500000e+05",
+         "inspinj","process:process_id:0","--max-distance","float","1.500000e+05",
          "inspinj","process:process_id:0","--polarization","float","0.000000e+00",
          "inspinj","process:process_id:0","--i-distr","string","fixed",
          "inspinj","process:process_id:0","--fixed-inc","float","6.981317e-01",
@@ -109,7 +109,7 @@
       <Column Name="bandpass" Type="int_4s"/>
       <Column Name="simulation_id" Type="ilwd:char"/>
       <Stream Name="sim_inspiral:table" Type="Local" Delimiter=",">
-         "process:process_id:0","TaylorF2threePointFivePN",1264079176,0,1264079176,6798635,1264079175,997834787,1264079176,9411829,1264079176,20120569,1264079176,7345865,4.6187028348991516e+04,"",1.500460e+00,1.801280e+00,1.429996e+00,2.479247e-01,1.000000e+02,-1.690000e+00,-8.500000e-01,6.981317e-01,1.678462e-01,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,2.000000e+01,0.000000e+00,2.363674e+02,2.565884e+02,2.441596e+02,1.337985e+02,2.734499e+02,0,0,"",-1,"TAPER_NONE",0,"sim_inspiral:simulation_id:0"
+         "process:process_id:0","TaylorF2threePointFivePN",1264079176,0,1264079176,6798635,1264079175,997834787,1264079176,9411829,1264079176,20120569,1264079176,7345865,4.6187028348991516e+04,"",1.500460e+00,1.801280e+00,1.429996e+00,2.479247e-01,1.500000e+02,-1.690000e+00,-8.500000e-01,6.981317e-01,1.678462e-01,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,0.000000e+00,2.000000e+01,0.000000e+00,3.545511e+02,3.848827e+02,3.662394e+02,2.006977e+02,4.101749e+02,0,0,"",-1,"TAPER_NONE",0,"sim_inspiral:simulation_id:0"
       </Stream>
    </Table>
 </LIGO_LW>
