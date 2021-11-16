@@ -7,7 +7,8 @@ echo "clearing folder/computing indexing.."
 rm -rf bayestar_runs/*
 
 rm -rf json_dump/*
-
+rm -rf plots/*
+rm -rf join are/*
 
 RA_N=$N
 DEC_N=$((N/2))

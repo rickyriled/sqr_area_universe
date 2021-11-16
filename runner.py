@@ -141,7 +141,7 @@ if __name__=="__main__":
     os.system("cp ../../correct_psd.xml .")
     
     print("measuring {}_{}...".format(args.ra,args.dec)) 
-    area=get_loc_area(np.pi*args.ra/args.N-np.pi, np.pi*args.dec/args.N-np.pi/2)
+    area=get_loc_area(2*np.pi*args.ra/args.N-np.pi, np.pi*args.dec/args.N-np.pi/2)
     
     print("dumping {}_{}...".format(args.ra,args.dec))
     key_ra_dec=str(args.ra)+"_"+str(args.dec)

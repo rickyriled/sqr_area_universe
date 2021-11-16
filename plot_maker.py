@@ -28,7 +28,7 @@ def get_area(location):
     N=int(math.sqrt(len(areas)*2))
     N_RA=N
     N_DEC=math.floor(N/2)
-    array_areas=np.full((N_DEC,N_RA),0.0)
+    array_areas=np.full((N_DEC+1,N_RA+1),0.0)
 
     for key in areas.keys():
         co_ords=list(key.split('_'))
