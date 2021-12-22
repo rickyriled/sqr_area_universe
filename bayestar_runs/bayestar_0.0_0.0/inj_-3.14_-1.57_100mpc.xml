@@ -17,7 +17,7 @@
       <Column Name="ifos" Type="lstring"/>
       <Column Name="process_id" Type="ilwd:char"/>
       <Stream Name="process:table" Type="Local" Delimiter=",">
-         "inspinj","cf792129c2473f42ce6c6ee21d8234254cefd337","UNCLEAN: Modified working tree",1297636810," ",0,"alpha","1003",869603,1321119909,1321119909,0,"lalapps","","process:process_id:0"
+         "inspinj","cf792129c2473f42ce6c6ee21d8234254cefd337","UNCLEAN: Modified working tree",1297636810," ",0,"alpha","1003",592232,1324180129,1324180129,0,"lalapps","","process:process_id:0"
       </Stream>
    </Table>
    <Table Name="process_params:table">
